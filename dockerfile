@@ -2,7 +2,7 @@ FROM node:alpine as builder
 
 WORKDIR '/app'
 
-COPY package.json ./
+COPY ackage*.json ./
 
 RUN npm install
 
